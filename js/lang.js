@@ -1,17 +1,17 @@
 // js/lang.js
 export const STR = {
   base: {
-    title: 'Keyboard Rush',
-    subtitle: 'Press the highlighted letters to reach the finish!',
-    start: 'Start!!!',
-    next: 'Next Level',
-    restartTop: 'Restart',
-    startTile: 'START',
-    winTitle: 'Level Complete!',
-    timeoutTitle: "Time’s up!",
-    timeoutMsg: 'Try again from this level.',
-    restartLevel: 'Restart Level',
-    level: (n) => `Level ${n}`,
+    title: 'Klavye Yarışı',
+    subtitle: 'Bitişe ulaşmak için belirtilen harfe basın!',
+    start: 'Başla!!!',
+    next: 'Sonraki Aşama',
+    restartTop: 'Yeniden Başla',
+    startTile: 'BAŞLA',
+    winTitle: 'Aşama Tamamlandı!',
+    timeoutTitle: "Süre doldu!",
+    timeoutMsg: 'Bu aşamayı tekrar deneyin.',
+    restartLevel: 'Aşamayı Yeniden Başlat',
+    level: (n) => `Aşama ${n}`,
     progress: (c, t) => `${c}/${t}`,
   }
 };
