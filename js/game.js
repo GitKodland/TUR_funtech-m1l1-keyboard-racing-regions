@@ -63,7 +63,7 @@ export class Game {
   // === обновление текста HUD ===
   _updateHUD() {
     if (this.$hudLevel && this.$hudProgress) {
-      this.$hudLevel.textContent = `Level ${this.levelIndex}`;
+      this.$hudLevel.textContent = `Seviye ${this.levelIndex}`;
       this.$hudProgress.textContent = `${this.targetIndex}/${this.sequence.length}`;
     }
   }
