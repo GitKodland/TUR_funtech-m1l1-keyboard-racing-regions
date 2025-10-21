@@ -177,7 +177,7 @@ export class Game {
       modal.hidden = false;
       modal.querySelector(".win-gif").src = "./assets/win.gif";
       const btn = modal.querySelector(".btn-gradient");
-      btn.textContent = this.levelIndex >= 3 ? "Finish" : i18n.t("next");
+      btn.textContent = this.levelIndex >= 3 ? "Bitir" : i18n.t("next");
       btn.onclick = () => {
         modal.hidden = true;
         if (this.levelIndex >= 3) {
